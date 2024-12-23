@@ -221,18 +221,19 @@ model-viewer {
 }
 
 .home-header {
-    border-radius: 10px;
-    background-image: url('/assets/image/blind.jpg'); /* Path ke gambar latar belakang */
-    background-size: cover; /* Memastikan gambar memenuhi seluruh area */
+    border-radius: 10px; /* Memberikan sudut melengkung */
+    background-image: url('{{ site.baseurl }}/assets/image/blind.jpg'); /* Memastikan URL sesuai dengan baseurl */
+    background-size: cover; /* Gambar menutupi seluruh area */
     background-position: center; /* Memusatkan gambar */
     background-repeat: no-repeat; /* Tidak mengulang gambar */
     position: relative;
-    color: #f4f4f4;
+    color: #f4f4f4; /* Warna teks yang kontras dengan latar belakang */
     text-align: center;
-    margin-bottom: 20px;
-    padding: 50px 20px; /* Tambahkan padding untuk memberi ruang pada konten */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan untuk kedalaman */
-    z-index: 1;
+    margin-bottom: 20px; /* Jarak bawah untuk elemen berikutnya */
+    padding: 70px 30px; /* Tambahkan ruang lebih untuk konten */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan lebih halus untuk efek kedalaman */
+    z-index: 1; /* Memastikan elemen berada di atas elemen lain */
+    overflow: hidden; /* Menghindari elemen meluap */
 }
 
 .home-header::before {
