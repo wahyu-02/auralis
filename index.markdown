@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home-header">
-    <img src="/assets/image/logo.png" alt="Logo AURALIS" class="logo">
+     <img src="{{ site.baseurl }}/assets/image/logo.png" alt="Logo AURALIS" class="logo">
     <p><strong>AURALIS</strong> adalah proyek kacamata pintar inovatif yang dirancang untuk membantu penyandang tunanetra bergerak lebih mandiri dengan menyediakan panduan audio secara real-time dan pemahaman lingkungan yang lebih luas.</p>
     <p>Kacamata ini memadukan teknologi mutakhir seperti visi komputer, kecerdasan buatan, dan sensor kedalaman (RGB-D), sehingga tidak hanya membantu dalam navigasi tetapi juga mengenali wajah, objek, serta teks, menjadikan dunia lebih ramah bagi mereka yang memiliki gangguan penglihatan.</p>
     <p>Teknologi AURALIS memanfaatkan kombinasi kamera, sensor, dan kecerdasan buatan untuk menyediakan umpan balik audio deskriptif mengenai lingkungan pengguna. Fitur ini membantu pengguna menavigasi ruang publik dengan lebih aman dan mandiri.</p>
@@ -66,19 +66,19 @@ layout: default
 <div class="goal">
   <h3>Computer Vision</h3>
   <p>Dengan algoritma visi komputer yang canggih, kacamata AURALIS mampu mendeteksi rintangan, mengenali objek, serta memperkirakan jarak. Informasi ini sangat vital untuk membantu navigasi secara real-time, khususnya di area yang padat atau memiliki banyak hambatan.</p>
-  <img src="/assets/image/camera.png" alt="Detail Kamera" class="about-image">
+  <img src="{{ site.baseurl }}/assets/image/camera.png" alt="Detail Kamera" class="about-image">
 </div>
 
 <div class="goal">
   <h3>Kecerdasan Buatan (AI)</h3>
   <p>AI berperan penting dalam memproses data dari visi komputer, beradaptasi, serta mempersonalisasi navigasi berdasarkan kebiasaan dan konteks pengguna. Pendekatan pembelajaran adaptif ini memungkinkan sistem terus berevolusi, meningkatkan akurasi dan menyesuaikan preferensi tiap pengguna tunanetra.</p>
-  <img src="/assets/image/ai.png" alt="Kecerdasan Buatan" class="about-image">
+  <img src="{{ site.baseurl }}/assets/image/ai.png" alt="Kecerdasan Buatan" class="about-image">
 </div>
 
 <div class="goal">
   <h3>Bone Conduction Speakers</h3>
   <p>Teknologi ini mengirimkan suara melalui tulang tengkorak ke telinga bagian dalam, sehingga pengguna dapat mendengar panduan audio tanpa menghalangi pendengaran alami. Fitur ini memastikan pengguna tetap waspada terhadap suara di sekitarnya dan dapat menerima instruksi navigasi secara bersamaan.</p>
-  <img src="/assets/image/arm.png" alt="Speaker Konduksi Tulang" class="about-image">
+  <img src="{{ site.baseurl }}/assets/image/arm.png" alt="Speaker Konduksi Tulang" class="about-image">
 </div>
 
 <div class="section-heading">
@@ -89,7 +89,7 @@ layout: default
   <p>Berikut ini adalah model 3D kacamata pintar AURALIS, menampilkan desain mutakhir yang menggabungkan fungsi dan gaya untuk membantu penyandang tunanetra.
 
   Model interaktif ini menyoroti kontrol intuitif dan aspek praktis kacamata, yang dirancang untuk meningkatkan mobilitas dan keselamatan penggunanya melalui teknologi inovatif.</p>
-  <model-viewer src="/assets/image/3d.glb" alt="Model 3D Kacamata Pintar AURALIS" auto-rotate camera-controls ar shadow-intensity="1" style="width: 80%; height: 600px;"></model-viewer>
+  <model-viewer src="{{ site.baseurl }}/assets/image/3d.glb" alt="Model 3D Kacamata Pintar AURALIS" auto-rotate camera-controls ar shadow-intensity="1" style="width: 80%; height: 600px;"></model-viewer>
 </div>
 
 <div class="video-container">
@@ -104,7 +104,7 @@ layout: default
 </div>
 
 <div class="team-member">
-    <img src="/assets/image/lina.jpg" alt="Hermalina Sintia Putri">
+    <img src="{{ site.baseurl }}/assets/image/lina.jpg" alt="Hermalina Sintia Putri">
     <div class="member-info">
         <h3>Hermalina Sintia Putri - 121450052</h3>
         <p>Pengembang ide dan berperan dalam penyusunan proposal dan presentasi proyek AURALIS.</p>
@@ -112,7 +112,7 @@ layout: default
 </div>
 
 <div class="team-member">
-    <img src="/assets/image/reval.jpg" alt="Revaldo Dava Fahmindo">
+    <img src="{{ site.baseurl }}/assets/image/reval.jpg" alt="Revaldo Dava Fahmindo">
     <div class="member-info">
         <h3>Revaldo Dafa Fahmindo - 121450085</h3>
         <p>Pengembang ide dan berperan dalam penyusunan proposal serta presentasi proyek AURALIS.</p>
@@ -120,7 +120,7 @@ layout: default
 </div>
 
 <div class="team-member">
-    <img src="/assets/image/tao.jpg" alt="Wahyudiyanto">
+    <img src="{{ site.baseurl }}/assets/image/tao.jpg" alt="Wahyudiyanto">
     <div class="member-info">
         <h3>Wahyudiyanto - 121450040</h3>
         <p>Membuat desain prototype dan website untuk proyek AURALIS.</p>
