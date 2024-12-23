@@ -1,0 +1,51 @@
+# Situs Settings
+baseurl: "/auralis"
+url: "https://wahyu-02.github.io"
+
+# Build Settings
+markdown: kramdown
+theme: minima # ganti dengan nama tema yang Anda gunakan, jika ada
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# SEO Tags
+author: AURALIS Team
+email: info@auralis.com
+twitter_username: auralis_project
+github_username: auralis
+
+# Build the site with production settings and minify CSS, JavaScript, and HTML
+# Uncomment if you want to apply Jekyll's environment-based configuration
+# JEKYLL_ENV: production
+
+# Additional Plugins
+# If you are using any other plugins, list them here
+# plugins:
+#   - jekyll-sitemap
+#   - jekyll-paginate
+
+# Permalinks
+permalink: /:categories/:title/
+
+# Pagination Settings
+# paginate: 10 # posts per page
+# paginate_path: /page:num/
+
+# Kramdown for Markdown processing (default Jekyll Markdown renderer)
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+  auto_ids: true
+  toc_levels: 1..6
+  entity_output: as_char
+  smart_quotes: lsquo,rsquo,ldquo,rdquo

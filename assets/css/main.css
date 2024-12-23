@@ -1,0 +1,346 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Typography Styles */
+body {
+    font-family: 'Helvetica', Helvetica;
+    color: #333;
+    line-height: 1.8; /* Increased line height for better readability */
+    background-color: #f4f4f4; /* Light blue background */
+    font-size: 19px; /* Increased font size for better readability */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica', Helvetica;
+    color: #02a4bd;
+	shape-outside:-webkit-radial-gradient(); /* Lighter blue shade for headers */
+    margin-bottom: 10px; /* Increased bottom margin for heading separation */
+}
+
+/* Navigation Styles */
+nav {
+    background: #02a4bd; /* Adjusted to a consistent light blue theme */
+    color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0; /* Increased padding */
+	margin-bottom: 30px;
+	font-size: 15px;
+}
+
+nav a {
+    color: #f4f4f4;
+    padding: 15px 25px; /* Increased padding */
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+/* Link Styles */
+a {
+    color: #02a4bd; /* Consistent theme color for links */
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #FFD700;
+}
+
+/* Footer */
+footer {
+    background-color: #02a4bd; /* A darker shade of blue for contrast */
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1em;
+}
+
+/* Form Styles */
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    margin-bottom: 15px; /* Increased spacing */
+    padding: 12px; /* Increased padding */
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background: #0277BD; /* Consistent theme color */
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #FFD700;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+}
+
+/* Centering text and images */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left; 
+    width: 90%; 
+    margin: auto; 
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 25px; /* Increased spacing */
+}
+
+/* Ensuring all content is visible */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.text-container {
+    max-width: 800px;
+    margin: 50px auto; /* Increased margin for better spacing */
+    padding: 25px; /* Increased padding */
+}
+
+@media (max-width: 768px) {
+    .text-container {
+        max-width: 100%;
+        padding: 15px;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+model-viewer {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Adjusting images on about page */
+.about-image {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 25px auto; /* Increased margin for better spacing */
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates three columns */
+    gap: 20px; /* Space between columns */
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background color for the container */
+}
+
+.feature {
+    background-color: #e0f7fa; /* Light blue background for each feature */
+    border-radius: 10px; /* Rounded corners for the boxes */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center text within each feature */
+}
+
+.feature h2 {
+    color: #02a4bd; /* Dark blue color for headings */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.feature p {
+    font-size: 14px; /* Larger font size for readability */
+    color: #333; /* Dark text for better contrast */
+}
+
+.section-heading h2{
+	border-radius: 10px;
+    background-color: #02a4bd; /* Deep blue background for header */
+    color: #f4f4f4;
+	margin: 10px auto;
+    text-align: center;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.goal {
+  background-color: #e0f7fa; /* Light blue for a clean look */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.goal h3 {
+  color: #02a4bd; /* Dark blue for headers to maintain consistency */
+}
+
+.goal p {
+  font-size: 16px; /* Slightly larger text for readability */
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-image {
+  max-width: 100%; /* Full-width images within the container */
+  display: block;
+  margin-top: 20px; /* Space above the image */
+}
+
+@media (max-width: 768px) {
+  .goal {
+    padding: 15px;
+  }
+
+  .section-heading {
+    padding: px;
+  }
+}
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-header {
+    border-radius: 10px;
+    background-image: url('/assets/image/blind.jpg'); /* Path ke gambar latar belakang */
+    background-size: cover; /* Memastikan gambar memenuhi seluruh area */
+    background-position: center; /* Memusatkan gambar */
+    background-repeat: no-repeat; /* Tidak mengulang gambar */
+    position: relative;
+    color: #f4f4f4;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 50px 20px; /* Tambahkan padding untuk memberi ruang pada konten */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan untuk kedalaman */
+    z-index: 1;
+}
+
+.home-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 3, 0.5); /* Overlay gelap dengan opacity 50% */
+    z-index: -1; /* Pastikan overlay berada di belakang konten */
+}
+
+.logo {
+    width: 700px; /* Sesuaikan ukuran logo */
+    margin: 0 auto 20px auto; /* Center logo dengan margin bawah */
+    display: block;
+}
+
+.home-header p {
+    font-size: 18px;
+    margin-bottom: 20px; /* Jarak antar paragraf */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; /* Memusatkan teks */
+    z-index: 2;
+    position: relative; /* Memastikan teks berada di atas overlay */
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Pastikan elemen sejajar ke kiri */
+    margin: 20px auto; /* Tengah-kan semua elemen */
+    background-color: #02a4bd; /* Warna latar biru muda */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan */
+    border-radius: 10px; /* Sudut membulat */
+    width: 80%; /* Pastikan semua elemen memiliki lebar yang konsisten */
+}
+
+.team-member img {
+    width: 150px; /* Ukuran gambar yang seragam */
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 75px; /* Bentuk lingkaran */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan gambar */
+}
+
+.member-info {
+    flex: 1; /* Ambil ruang tersisa untuk teks */
+}
+
+.member-info h3 {
+    margin: 0;
+    color: #e0f7fa; /* Warna teks yang kontras */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.member-info p {
+    font-size: 16px;
+    color: #ffffff; /* Warna teks untuk kontras */
+    margin-top: 10px;
+    line-height: 1.6; /* Tambahkan jarak antara baris */
+}
+
+/* Penyesuaian untuk perangkat kecil */
+@media (max-width: 768px) {
+    .team-member {
+        flex-direction: column;
+        align-items: center; /* Sejajarkan elemen secara vertikal */
+        text-align: center;
+    }
+
+    .team-member img {
+        margin-bottom: 10px;
+    }
+
+    .member-info {
+        text-align: center; /* Tengah-kan teks */
+    }
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%; /* Lebar kontainer secara keseluruhan */
+}
+
+.responsive-iframe {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Rasio aspek 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none; /* Hilangkan border untuk tampilan bersih */
+}
+
+
+
