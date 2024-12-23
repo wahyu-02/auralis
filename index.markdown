@@ -5,8 +5,8 @@ layout: default
 <div class="home-header">
      <img src="{{ site.baseurl }}/assets/image/logo.png" alt="Logo AURALIS" class="logo">
     <p><strong>AURALIS</strong> adalah proyek kacamata pintar inovatif yang dirancang untuk membantu penyandang tunanetra bergerak lebih mandiri dengan menyediakan panduan audio secara real-time dan pemahaman lingkungan yang lebih luas.</p>
-    <p>Kacamata ini memadukan teknologi mutakhir seperti visi komputer, kecerdasan buatan, dan sensor kedalaman (RGB-D), sehingga tidak hanya membantu dalam navigasi tetapi juga mengenali wajah, objek, serta teks, menjadikan dunia lebih ramah bagi mereka yang memiliki gangguan penglihatan.</p>
-    <p>Teknologi AURALIS memanfaatkan kombinasi kamera, sensor, dan kecerdasan buatan untuk menyediakan umpan balik audio deskriptif mengenai lingkungan pengguna. Fitur ini membantu pengguna menavigasi ruang publik dengan lebih aman dan mandiri.</p>
+    <p>Kacamata ini memadukan teknologi mutakhir seperti _computer vision_, _artifitian intelegent_, dan sensor kedalaman (RGB-D), sehingga tidak hanya membantu dalam navigasi tetapi juga mengenali wajah, objek, serta teks, menjadikan dunia lebih ramah bagi mereka yang memiliki gangguan penglihatan.</p>
+    <p>Teknologi AURALIS memanfaatkan kombinasi kamera, sensor, dan kecerdasan buatan untuk memberikan umpan balik audio deskriptif mengenai lingkungan pengguna. Fitur ini membantu pengguna menavigasi ruang publik dengan lebih aman dan mandiri.</p>
 </div>
 
 <div class="section-heading">
