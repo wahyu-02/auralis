@@ -182,32 +182,49 @@ model-viewer {
 }
 
 
-.section-heading h2{
-	border-radius: 10px;
-    background-color: #02a4bd; /* Deep blue background for header */
-    color: #f4f4f4;
-	margin: 10px auto;
-    text-align: center;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+.section-heading h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #02a4bd;
+  font-size: 2rem;
+}
+
+.goal-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .goal {
-  background-color: #e0f7fa; /* Light blue for a clean look */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #e0f7fa; /* Light blue background */
   padding: 20px;
-  margin: 20px 0;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.goal h3 {
-  color: #02a4bd; /* Dark blue for headers to maintain consistency */
+.goal-image {
+  flex: 1;
+  max-width: 150px; /* Adjust the size of the image */
+  border-radius: 10px;
 }
 
-.goal p {
-  font-size: 16px; /* Slightly larger text for readability */
+.goal-content {
+  flex: 2;
+}
+
+.goal-content h3 {
+  color: #02a4bd;
+  margin-bottom: 10px;
+}
+
+.goal-content p {
   color: #333;
   line-height: 1.6;
 }
+
 
 .about-image {
   max-width: 100%; /* Full-width images within the container */
