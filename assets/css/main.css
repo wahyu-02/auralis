@@ -210,7 +210,7 @@ model-viewer {
 }
 
 .about-image {
-  max-width: 100%; /* Full-width images within the container */
+  max-width: 90%; /* Full-width images within the container */
   display: block;
   margin-top: 20px; /* Space above the image */
 }
@@ -225,14 +225,12 @@ model-viewer {
   }
 }
 
-
 /* Basic Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 .home-header {
     border-radius: 10px; /* Membulatkan sudut */
     background-image: url('{{ site.baseurl }}/assets/image/blind.jpg'); /* URL gambar dengan baseurl */
