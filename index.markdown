@@ -110,7 +110,7 @@ layout: default
 <div class="video-container">
   <p>Tonton untuk melihat bagaimana AURALIS bekerja dan memahami lebih dalam fitur-fitur serta manfaat yang ditawarkannya.</p>
   <div class="responsive-iframe">
-    <iframe src="https://drive.google.com/file/d/1xwVqNgmf-_eVHnbK6YLVMeID5HQD17Tr/view?usp=sharing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://drive.google.com/file/d/1xwVqNgmf-_eVHnbK6YLVMeID5HQD17Tr/preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
