@@ -135,40 +135,52 @@ model-viewer {
 	margin: 0 auto;
 }
 
-/* Adjusting images on about page */
-.about-image {
-    width: 50%;
-    height: auto;
-    display: block;
-    margin: 25px auto; /* Increased margin for better spacing */
-}
-
 .features-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Creates three columns */
-    gap: 20px; /* Space between columns */
+    grid-template-columns: repeat(2, 1fr); /* Membagi fitur ke dalam dua kolom */
+    gap: 20px; /* Jarak antar fitur */
     margin: 10px auto;
     padding: 20px;
-    background-color: #f4f4f4; /* Light background color for the container */
+    background-color: #f4f4f4; /* Warna latar belakang */
 }
 
 .feature {
-    background-color: #e0f7fa; /* Light blue background for each feature */
-    border-radius: 10px; /* Rounded corners for the boxes */
+    background-color: #e0f7fa; /* Warna biru muda */
+    border-radius: 10px; /* Membulatkan sudut kotak */
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-    text-align: center; /* Center text within each feature */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan untuk kedalaman */
+    text-align: center; /* Teks berada di tengah */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi untuk hover */
+}
+
+.feature:hover {
+    transform: translateY(-10px); /* Kotak naik sedikit saat dihover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Bayangan lebih tajam */
+    background-color: #b2ebf2; /* Warna latar yang lebih terang saat dihover */
 }
 
 .feature h2 {
-    color: #02a4bd; /* Dark blue color for headings */
-    margin-bottom: 10px; /* Space below the heading */
+    color: #02a4bd; /* Warna biru untuk heading */
+    margin-bottom: 10px; /* Jarak bawah heading */
 }
 
 .feature p {
-    font-size: 14px; /* Larger font size for readability */
-    color: #333; /* Dark text for better contrast */
+    font-size: 14px; /* Ukuran font untuk deskripsi */
+    color: #333; /* Warna teks gelap */
 }
+
+/* Efek tambahan untuk ikon atau gambar dalam fitur */
+.feature img {
+    width: 80px; /* Ukuran ikon atau gambar */
+    height: 80px;
+    margin-bottom: 15px; /* Jarak bawah gambar */
+    transition: transform 0.3s ease; /* Animasi untuk gambar */
+}
+
+.feature:hover img {
+    transform: scale(1.1); /* Memperbesar gambar sedikit saat dihover */
+}
+
 
 .section-heading h2{
 	border-radius: 10px;
@@ -221,19 +233,19 @@ model-viewer {
 }
 
 .home-header {
-    border-radius: 10px; /* Memberikan sudut melengkung */
-    background-image: url('{{ site.baseurl }}/assets/image/blind.jpg'); /* Memastikan URL sesuai dengan baseurl */
-    background-size: cover; /* Gambar menutupi seluruh area */
+    border-radius: 10px; /* Membulatkan sudut */
+    background-image: url('{{ site.baseurl }}/assets/image/blind.jpg'); /* URL gambar dengan baseurl */
+    background-size: cover; /* Gambar memenuhi area */
     background-position: center; /* Memusatkan gambar */
     background-repeat: no-repeat; /* Tidak mengulang gambar */
     position: relative;
-    color: #f4f4f4; /* Warna teks yang kontras dengan latar belakang */
+    color: #f4f4f4; /* Warna teks untuk kontras */
     text-align: center;
-    margin-bottom: 20px; /* Jarak bawah untuk elemen berikutnya */
-    padding: 70px 30px; /* Tambahkan ruang lebih untuk konten */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan lebih halus untuk efek kedalaman */
-    z-index: 1; /* Memastikan elemen berada di atas elemen lain */
-    overflow: hidden; /* Menghindari elemen meluap */
+    margin-bottom: 20px; /* Jarak bawah */
+    padding: 70px 30px; /* Padding untuk ruang konten */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan */
+    z-index: 1; /* Memastikan elemen berada di atas */
+    overflow: hidden; /* Hindari konten meluap */
 }
 
 .home-header::before {
@@ -243,24 +255,23 @@ model-viewer {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 3, 0.5); /* Overlay gelap dengan opacity 50% */
-    z-index: -1; /* Pastikan overlay berada di belakang konten */
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay gelap dengan opacity */
+    z-index: -1; /* Overlay berada di bawah konten */
+}
+
+.home-header p {
+    font-size: 18px; /* Ukuran font */
+    margin-bottom: 20px; /* Jarak antar paragraf */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; /* Teks berada di tengah */
+    position: relative; /* Pastikan teks berada di atas overlay */
 }
 
 .logo {
     width: 700px; /* Sesuaikan ukuran logo */
     margin: 0 auto 20px auto; /* Center logo dengan margin bawah */
     display: block;
-}
-
-.home-header p {
-    font-size: 18px;
-    margin-bottom: 20px; /* Jarak antar paragraf */
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto; /* Memusatkan teks */
-    z-index: 2;
-    position: relative; /* Memastikan teks berada di atas overlay */
 }
 
 .team-member {
