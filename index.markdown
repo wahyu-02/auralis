@@ -58,7 +58,6 @@ layout: default
 
 <div class="goal-container">
   <div class="goal">
-    <img src="{{ site.baseurl }}/assets/image/icon-multilingual.png" alt="MultiLingualAssist Icon" class="goal-image">
     <div class="goal-content">
       <h3>Mengembangkan Kacamata Pintar untuk Komputasi Pervasif</h3>
       <p>Kami berupaya menciptakan teknologi wearable yang berfungsi secara intuitif, memungkinkan pengguna bergerak dengan percaya diri dan mandiri. Kacamata pintar ini mengumpulkan dan memproses data spasial, memberikan umpan balik real-time tentang lingkungan, sehingga mempermudah transisi saat berpindah tempat.</p>
@@ -66,7 +65,6 @@ layout: default
   </div>
 
   <div class="goal">
-    <img src="{{ site.baseurl }}/assets/image/icon-multilingual.png" alt="MultiLingualAssist Icon" class="goal-image">
     <div class="goal-content">
       <h3>Meningkatkan Keselamatan dan Keamanan</h3>
       <p>Dengan memanfaatkan sistem panduan audio real-time, AURALIS memberi peringatan jika terdapat bahaya seperti tangga menurun, rintangan fisik, atau kendaraan yang mendekat. Sistem ini juga dapat menafsirkan berbagai informasi visual—seperti lampu lalu lintas dan rambu jalan—untuk diubah menjadi isyarat audio yang menjaga keselamatan pengguna selama perjalanan.</p>
