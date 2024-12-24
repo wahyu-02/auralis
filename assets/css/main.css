@@ -197,22 +197,24 @@ model-viewer {
 
 .goal {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 20px;
-  background-color: #e0f7fa; /* Light blue background */
+  background-color: #e0f7fa;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .goal-image {
-  flex: 1;
-  max-width: 150px; /* Adjust the size of the image */
+  max-width: 150px; /* Batas ukuran gambar */
+  height: auto;
   border-radius: 10px;
+  flex-shrink: 0; /* Pastikan gambar tidak menyusut */
 }
 
 .goal-content {
-  flex: 2;
+  flex: 1; /* Berikan teks ruang lebih besar */
 }
 
 .goal-content h3 {
@@ -228,7 +230,7 @@ model-viewer {
 
 @media (max-width: 768px) {
   .goal {
-    flex-direction: column;
+    flex-direction: column; /* Ubah jadi vertikal di perangkat kecil */
     text-align: center;
   }
 
@@ -236,17 +238,12 @@ model-viewer {
     margin-bottom: 10px;
     max-width: 100%;
   }
-}
 
-@media (max-width: 768px) {
-  .goal {
-    padding: 15px;
-  }
-
-  .section-heading {
-    padding: px;
+  .goal-content {
+    text-align: justify;
   }
 }
+
 
 /* Basic Reset */
 * {
