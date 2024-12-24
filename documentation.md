@@ -13,6 +13,6 @@ permalink: /documentation/
 
 Jelajahi materi presentasi kami untuk memahami proyek ini secara lebih mendalam:
 
-<iframe src="{{ site.baseurl }}/assets/ppt.pdf" width="100%" height="500px" style="border: none;"></iframe>
+<iframe src="{{ site.baseurl }}/assets/ppt1.pdf" width="100%" height="500px" style="border: none;"></iframe>
 
 [Kembali ke Halaman Utama]({{ site.baseurl }}/)
