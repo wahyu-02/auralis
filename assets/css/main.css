@@ -332,6 +332,23 @@ model-viewer {
     transform: scale(1.1); /* Perbesar gambar saat hover */
 }
 
+.linkedin-link {
+    display: none; /* Sembunyikan link secara default */
+    font-size: 14px; /* Ukuran teks link */
+    color: #e0f7fa; /* Warna teks link */
+    margin-top: 10px; /* Jarak atas */
+    text-decoration: underline; /* Tambahkan garis bawah */
+    transition: color 0.3s; /* Transisi warna yang halus */
+}
+
+.team-member:hover .linkedin-link {
+    display: block; /* Tampilkan link saat hover */
+}
+
+.team-member:hover .linkedin-link:hover {
+    color: #0288a3; /* Ubah warna link saat hover pada link itu sendiri */
+}
+
 /* Penyesuaian untuk perangkat kecil */
 @media (max-width: 768px) {
     .team-member {
