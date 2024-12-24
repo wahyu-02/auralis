@@ -312,6 +312,26 @@ model-viewer {
     line-height: 1.6; /* Tambahkan jarak antara baris */
 }
 
+.team-link {
+    text-decoration: none; /* Hilangkan garis bawah default */
+    display: block; /* Buat elemen link mencakup seluruh div team-member */
+}
+
+.team-member:hover {
+    background-color: #0288a3; /* Ubah warna latar saat hover */
+    transform: scale(1.05); /* Perbesar sedikit */
+    transition: transform 0.3s, background-color 0.3s; /* Efek transisi yang halus */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Tambahkan bayangan saat hover */
+}
+
+.team-member img {
+    transition: transform 0.3s; /* Efek transisi untuk gambar */
+}
+
+.team-member:hover img {
+    transform: scale(1.1); /* Perbesar gambar saat hover */
+}
+
 /* Penyesuaian untuk perangkat kecil */
 @media (max-width: 768px) {
     .team-member {
