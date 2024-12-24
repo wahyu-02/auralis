@@ -15,30 +15,37 @@ layout: default
 
 <div class="features-container">
   <div class="feature">
+    <img src="{{ site.baseurl }}/assets/image/icon-vision.png" alt="VisionSense Icon">
     <h2>VisionSense</h2>
     <p>Menggunakan kamera RGB-D dan OpenAI Vision API untuk mendeteksi objek sekaligus memberikan deskripsi audio secara real-time.</p>
   </div>
   <div class="feature">
+    <img src="{{ site.baseurl }}/assets/image/icon-textreader.png" alt="TextReader Icon">
     <h2>TextReader</h2>
     <p>Memanfaatkan OCR untuk membaca teks dari dokumen, papan nama, atau rambu jalan, lalu menyampaikannya dalam bentuk audio.</p>
   </div>
   <div class="feature">
+    <img src="{{ site.baseurl }}/assets/image/icon-smartnav.png" alt="SmartNav Icon">
     <h2>SmartNav</h2>
     <p>Integrasi Google Maps API yang memberikan panduan suara berbasis lokasi, memudahkan pengguna menavigasi rute dengan aman.</p>
   </div>
   <div class="feature">
+    <img src="{{ site.baseurl }}/assets/image/icon-obstacle.png" alt="ObstacleAlert Icon">
     <h2>ObstacleAlert</h2>
     <p>Kamera depth mendeteksi jarak rintangan dan memberikan peringatan audio, membantu pengguna menghindari potensi bahaya.</p>
   </div>
   <div class="feature">
+    <img src="{{ site.baseurl }}/assets/image/icon-clearaudio.png" alt="ClearAudio Icon">
     <h2>ClearAudio</h2>
     <p>Menggunakan bone conduction speaker agar panduan audio tidak mengganggu pendengaran alami dan tetap nyaman digunakan.</p>
   </div>
   <div class="feature">
+    <img src="{{ site.baseurl }}/assets/image/icon-gesture.png" alt="GestureControl Icon">
     <h2>GestureControl</h2>
     <p>Panel sentuh dan sensor gerak memungkinkan pengguna mengatur fitur, volume, dan mode hanya dengan sentuhan atau gerakan kepala.</p>
   </div>
   <div class="feature">
+    <img src="{{ site.baseurl }}/assets/image/icon-multilingual.png" alt="MultiLingualAssist Icon">
     <h2>MultiLingualAssist</h2>
     <p>Mendukung berbagai bahasa dan memungkinkan penyesuaian audio, sensitivitas sensor, serta mode operasi sesuai preferensi pengguna.</p>
   </div>
