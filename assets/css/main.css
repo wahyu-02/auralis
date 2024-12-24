@@ -182,65 +182,46 @@ model-viewer {
 }
 
 
-.section-heading h1 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #02a4bd;
-  font-size: 2rem;
-}
-
-.goal-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.section-heading h2{
+	border-radius: 10px;
+    background-color: #02a4bd; /* Deep blue background for header */
+    color: #f4f4f4;
+	margin: 10px auto;
+    text-align: center;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
 .goal {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 20px;
-  background-color: #e0f7fa;
+  background-color: #e0f7fa; /* Light blue for a clean look */
   padding: 20px;
+  margin: 20px 0;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
-.goal-image {
-  max-width: 90px; /* Batas ukuran gambar */
-  height: auto;
-  border-radius: 10px;
-  flex-shrink: 0; /* Pastikan gambar tidak menyusut */
+.goal h3 {
+  color: #02a4bd; /* Dark blue for headers to maintain consistency */
 }
 
-.goal-content {
-  flex: 1; /* Berikan teks ruang lebih besar */
-}
-
-.goal-content h3 {
-  color: #02a4bd;
-  margin-bottom: 10px;
-}
-
-.goal-content p {
+.goal p {
+  font-size: 16px; /* Slightly larger text for readability */
   color: #333;
   line-height: 1.6;
-  text-align: justify;
 }
 
-@media (max-width: 500px) {
+.about-image {
+  max-width: 100%; /* Full-width images within the container */
+  display: block;
+  margin-top: 20px; /* Space above the image */
+}
+
+@media (max-width: 768px) {
   .goal {
-    flex-direction: column; /* Ubah jadi vertikal di perangkat kecil */
-    text-align: center;
+    padding: 15px;
   }
 
-  .goal-image {
-    margin-bottom: 10px;
-    max-width: 100%;
-  }
-
-  .goal-content {
-    text-align: justify;
+  .section-heading {
+    padding: px;
   }
 }
 
