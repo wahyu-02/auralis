@@ -207,7 +207,7 @@ model-viewer {
 }
 
 .goal-image {
-  max-width: 150px; /* Batas ukuran gambar */
+  max-width: 90px; /* Batas ukuran gambar */
   height: auto;
   border-radius: 10px;
   flex-shrink: 0; /* Pastikan gambar tidak menyusut */
@@ -228,7 +228,7 @@ model-viewer {
   text-align: justify;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .goal {
     flex-direction: column; /* Ubah jadi vertikal di perangkat kecil */
     text-align: center;
