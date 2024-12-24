@@ -118,27 +118,34 @@ layout: default
   <h1>Kenalan dengan tim kami!</h1>
 </div>
 
-<div class="team-member">
-    <img src="{{ site.baseurl }}/assets/image/lina.jpg" alt="Hermalina Sintia Putri">
-    <div class="member-info">
-        <h3>Hermalina Sintia Putri - 121450052</h3>
-        <p>Pengembang ide dan berperan dalam penyusunan proposal dan presentasi proyek AURALIS.</p>
-    </div>
-</div>
+<a href="https://www.linkedin.com/in/hermalina-sintia-putri" target="_blank" class="team-link">
+  <div class="team-member">
+      <img src="{{ site.baseurl }}/assets/image/lina.jpg" alt="Hermalina Sintia Putri">
+      <div class="member-info">
+          <h3>Hermalina Sintia Putri - 121450052</h3>
+          <p>Pengembang ide dan berperan dalam penyusunan proposal dan presentasi proyek AURALIS.</p>
+      </div>
+  </div>
+</a>
 
-<div class="team-member">
-    <img src="{{ site.baseurl }}/assets/image/reval.jpg" alt="Revaldo Dava Fahmindo">
-    <div class="member-info">
-        <h3>Revaldo Dafa Fahmindo - 121450085</h3>
-        <p>Pengembang ide dan berperan dalam penyusunan proposal serta presentasi proyek AURALIS.</p>
-    </div>
-</div>
+<a href="https://www.linkedin.com/in/revaldo-dava-fahmindo" target="_blank" class="team-link">
+  <div class="team-member">
+      <img src="{{ site.baseurl }}/assets/image/reval.jpg" alt="Revaldo Dava Fahmindo">
+      <div class="member-info">
+          <h3>Revaldo Dafa Fahmindo - 121450085</h3>
+          <p>Pengembang ide dan berperan dalam penyusunan proposal serta presentasi proyek AURALIS.</p>
+      </div>
+  </div>
+</a>
 
-<div class="team-member">
-    <img src="{{ site.baseurl }}/assets/image/tao.jpg" alt="Wahyudiyanto">
-    <div class="member-info">
-        <h3>Wahyudiyanto - 121450040</h3>
-        <p>Membuat desain prototype dan website untuk proyek AURALIS.</p>
-    </div>
-</div>
+<a href="https://www.linkedin.com/in/wahyudiyanto" target="_blank" class="team-link">
+  <div class="team-member">
+      <img src="{{ site.baseurl }}/assets/image/tao.jpg" alt="Wahyudiyanto">
+      <div class="member-info">
+          <h3>Wahyudiyanto - 121450040</h3>
+          <p>Membuat desain prototype dan website untuk proyek AURALIS.</p>
+      </div>
+  </div>
+</a>
+
 
