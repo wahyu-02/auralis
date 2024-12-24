@@ -346,7 +346,7 @@ model-viewer {
 }
 
 .team-member:hover .linkedin-link:hover {
-    color: #0288a3; /* Ubah warna link saat hover pada link itu sendiri */
+    color: #FFD700; /* Ubah warna link saat hover pada link itu sendiri */
 }
 
 /* Penyesuaian untuk perangkat kecil */
