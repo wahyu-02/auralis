@@ -141,7 +141,7 @@ layout: default
     <div class="member-info">
         <h3>Wahyudiyanto - 121450040</h3>
         <p>Membuat desain prototype dan website untuk proyek AURALIS.</p>
-        <a href="https://www.linkedin.com/in/wahyudiyanto" target="_blank" class="linkedin-link">LinkedIn Profile</a>
+        <a href="https://www.linkedin.com/in/wahyu-laja" target="_blank" class="linkedin-link">LinkedIn Profile</a>
     </div>
 </div>
 
