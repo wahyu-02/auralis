@@ -138,7 +138,7 @@ layout: default
   </div>
 </a>
 
-<a href="https://www.linkedin.com/in/wahyudiyanto" target="_blank" class="team-link">
+<a href="https://www.linkedin.com/in/wahyu-laja" target="_blank" class="team-link">
   <div class="team-member">
       <img src="{{ site.baseurl }}/assets/image/tao.jpg" alt="Wahyudiyanto">
       <div class="member-info">
