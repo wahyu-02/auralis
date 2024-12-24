@@ -223,13 +223,19 @@ model-viewer {
 .goal-content p {
   color: #333;
   line-height: 1.6;
+  text-align: justify;
 }
 
+@media (max-width: 768px) {
+  .goal {
+    flex-direction: column;
+    text-align: center;
+  }
 
-.about-image {
-  max-width: 100%; /* Full-width images within the container */
-  display: block;
-  margin-top: 20px; /* Space above the image */
+  .goal-image {
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
