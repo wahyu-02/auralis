@@ -137,7 +137,7 @@ model-viewer {
 
 .features-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Membagi fitur ke dalam dua kolom */
+    grid-template-columns: repeat(2, 1fr); /* Membagi fitur menjadi dua kolom */
     gap: 20px; /* Jarak antar fitur */
     margin: 10px auto;
     padding: 20px;
@@ -145,18 +145,29 @@ model-viewer {
 }
 
 .feature {
-    background-color: #e0f7fa; /* Warna biru muda */
-    border-radius: 10px; /* Membulatkan sudut kotak */
+    background-color: #e0f7fa; /* Warna biru muda untuk fitur */
+    border-radius: 10px; /* Membulatkan sudut */
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan untuk kedalaman */
-    text-align: center; /* Teks berada di tengah */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi untuk hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi hover */
 }
 
 .feature:hover {
-    transform: translateY(-10px); /* Kotak naik sedikit saat dihover */
+    transform: translateY(-10px); /* Kotak naik sedikit */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Bayangan lebih tajam */
-    background-color: #b2ebf2; /* Warna latar yang lebih terang saat dihover */
+    background-color: #b2ebf2; /* Warna latar lebih terang */
+}
+
+.feature img {
+    width: 80px; /* Ukuran ikon */
+    height: 80px;
+    margin-bottom: 15px; /* Jarak antara ikon dan teks */
+    transition: transform 0.3s ease; /* Animasi hover untuk ikon */
+}
+
+.feature:hover img {
+    transform: scale(1.1); /* Ikon membesar saat hover */
 }
 
 .feature h2 {
@@ -167,18 +178,7 @@ model-viewer {
 .feature p {
     font-size: 14px; /* Ukuran font untuk deskripsi */
     color: #333; /* Warna teks gelap */
-}
-
-/* Efek tambahan untuk ikon atau gambar dalam fitur */
-.feature img {
-    width: 80px; /* Ukuran ikon atau gambar */
-    height: 80px;
-    margin-bottom: 15px; /* Jarak bawah gambar */
-    transition: transform 0.3s ease; /* Animasi untuk gambar */
-}
-
-.feature:hover img {
-    transform: scale(1.1); /* Memperbesar gambar sedikit saat dihover */
+    line-height: 1.6; /* Spasi antar baris */
 }
 
 
