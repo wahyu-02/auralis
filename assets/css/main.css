@@ -254,7 +254,7 @@ model-viewer {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Overlay gelap dengan opacity */
+    background-color: #02a4bd; /* Overlay gelap dengan opacity */
     z-index: -1; /* Overlay berada di bawah konten */
 }
 
